@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB28E4EA20675E1700BE272C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28E4E920675E1700BE272C /* AppDelegate.swift */; };
+		CB28E4EC20675E1700BE272C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28E4EB20675E1700BE272C /* ViewController.swift */; };
+		CB28E4EF20675E1700BE272C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB28E4ED20675E1700BE272C /* Main.storyboard */; };
+		CB28E4F120675E1700BE272C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB28E4F020675E1700BE272C /* Assets.xcassets */; };
+		CB28E4F420675E1700BE272C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB28E4F220675E1700BE272C /* LaunchScreen.storyboard */; };
+		CB28E4FF20675E1700BE272C /* myARappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28E4FE20675E1700BE272C /* myARappTests.swift */; };
+		CB28E50A20675E1700BE272C /* myARappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28E50920675E1700BE272C /* myARappUITests.swift */; };
+		CB29FFFC206F375C00B8671E /* Cube.scn in Resources */ = {isa = PBXBuildFile; fileRef = CB29FFFB206F375C00B8671E /* Cube.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB28E4FB20675E1700BE272C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB28E4DE20675E1700BE272C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB28E4E520675E1700BE272C;
+			remoteInfo = myARapp;
+		};
+		CB28E50620675E1700BE272C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB28E4DE20675E1700BE272C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB28E4E520675E1700BE272C;
+			remoteInfo = myARapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB28E4E620675E1700BE272C /* myARapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myARapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB28E4E920675E1700BE272C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB28E4EB20675E1700BE272C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB28E4EE20675E1700BE272C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB28E4F020675E1700BE272C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB28E4F320675E1700BE272C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB28E4F520675E1700BE272C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB28E4FA20675E1700BE272C /* myARappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myARappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB28E4FE20675E1700BE272C /* myARappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myARappTests.swift; sourceTree = "<group>"; };
+		CB28E50020675E1700BE272C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB28E50520675E1700BE272C /* myARappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myARappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB28E50920675E1700BE272C /* myARappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myARappUITests.swift; sourceTree = "<group>"; };
+		CB28E50B20675E1700BE272C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB29FFFB206F375C00B8671E /* Cube.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Cube.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB28E4E320675E1700BE272C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB28E4F720675E1700BE272C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB28E50220675E1700BE272C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB28E4DD20675E1700BE272C = {
+			isa = PBXGroup;
+			children = (
+				CB28E4E820675E1700BE272C /* myARapp */,
+				CB28E4FD20675E1700BE272C /* myARappTests */,
+				CB28E50820675E1700BE272C /* myARappUITests */,
+				CB28E4E720675E1700BE272C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB28E4E720675E1700BE272C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB28E4E620675E1700BE272C /* myARapp.app */,
+				CB28E4FA20675E1700BE272C /* myARappTests.xctest */,
+				CB28E50520675E1700BE272C /* myARappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB28E4E820675E1700BE272C /* myARapp */ = {
+			isa = PBXGroup;
+			children = (
+				CB28E4E920675E1700BE272C /* AppDelegate.swift */,
+				CB28E4EB20675E1700BE272C /* ViewController.swift */,
+				CB29FFFB206F375C00B8671E /* Cube.scn */,
+				CB28E4ED20675E1700BE272C /* Main.storyboard */,
+				CB28E4F020675E1700BE272C /* Assets.xcassets */,
+				CB28E4F220675E1700BE272C /* LaunchScreen.storyboard */,
+				CB28E4F520675E1700BE272C /* Info.plist */,
+			);
+			path = myARapp;
+			sourceTree = "<group>";
+		};
+		CB28E4FD20675E1700BE272C /* myARappTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB28E4FE20675E1700BE272C /* myARappTests.swift */,
+				CB28E50020675E1700BE272C /* Info.plist */,
+			);
+			path = myARappTests;
+			sourceTree = "<group>";
+		};
+		CB28E50820675E1700BE272C /* myARappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB28E50920675E1700BE272C /* myARappUITests.swift */,
+				CB28E50B20675E1700BE272C /* Info.plist */,
+			);
+			path = myARappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB28E4E520675E1700BE272C /* myARapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB28E50E20675E1700BE272C /* Build configuration list for PBXNativeTarget "myARapp" */;
+			buildPhases = (
+				CB28E4E220675E1700BE272C /* Sources */,
+				CB28E4E320675E1700BE272C /* Frameworks */,
+				CB28E4E420675E1700BE272C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myARapp;
+			productName = myARapp;
+			productReference = CB28E4E620675E1700BE272C /* myARapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB28E4F920675E1700BE272C /* myARappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB28E51120675E1700BE272C /* Build configuration list for PBXNativeTarget "myARappTests" */;
+			buildPhases = (
+				CB28E4F620675E1700BE272C /* Sources */,
+				CB28E4F720675E1700BE272C /* Frameworks */,
+				CB28E4F820675E1700BE272C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB28E4FC20675E1700BE272C /* PBXTargetDependency */,
+			);
+			name = myARappTests;
+			productName = myARappTests;
+			productReference = CB28E4FA20675E1700BE272C /* myARappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB28E50420675E1700BE272C /* myARappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB28E51420675E1700BE272C /* Build configuration list for PBXNativeTarget "myARappUITests" */;
+			buildPhases = (
+				CB28E50120675E1700BE272C /* Sources */,
+				CB28E50220675E1700BE272C /* Frameworks */,
+				CB28E50320675E1700BE272C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB28E50720675E1700BE272C /* PBXTargetDependency */,
+			);
+			name = myARappUITests;
+			productName = myARappUITests;
+			productReference = CB28E50520675E1700BE272C /* myARappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB28E4DE20675E1700BE272C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Stephan Kilim";
+				TargetAttributes = {
+					CB28E4E520675E1700BE272C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CB28E4F920675E1700BE272C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB28E4E520675E1700BE272C;
+					};
+					CB28E50420675E1700BE272C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB28E4E520675E1700BE272C;
+					};
+				};
+			};
+			buildConfigurationList = CB28E4E120675E1700BE272C /* Build configuration list for PBXProject "myARapp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB28E4DD20675E1700BE272C;
+			productRefGroup = CB28E4E720675E1700BE272C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB28E4E520675E1700BE272C /* myARapp */,
+				CB28E4F920675E1700BE272C /* myARappTests */,
+				CB28E50420675E1700BE272C /* myARappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB28E4E420675E1700BE272C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB28E4F420675E1700BE272C /* LaunchScreen.storyboard in Resources */,
+				CB29FFFC206F375C00B8671E /* Cube.scn in Resources */,
+				CB28E4F120675E1700BE272C /* Assets.xcassets in Resources */,
+				CB28E4EF20675E1700BE272C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB28E4F820675E1700BE272C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB28E50320675E1700BE272C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB28E4E220675E1700BE272C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB28E4EC20675E1700BE272C /* ViewController.swift in Sources */,
+				CB28E4EA20675E1700BE272C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB28E4F620675E1700BE272C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB28E4FF20675E1700BE272C /* myARappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB28E50120675E1700BE272C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB28E50A20675E1700BE272C /* myARappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB28E4FC20675E1700BE272C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB28E4E520675E1700BE272C /* myARapp */;
+			targetProxy = CB28E4FB20675E1700BE272C /* PBXContainerItemProxy */;
+		};
+		CB28E50720675E1700BE272C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB28E4E520675E1700BE272C /* myARapp */;
+			targetProxy = CB28E50620675E1700BE272C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB28E4ED20675E1700BE272C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB28E4EE20675E1700BE272C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB28E4F220675E1700BE272C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB28E4F320675E1700BE272C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB28E50C20675E1700BE272C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB28E50D20675E1700BE272C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB28E50F20675E1700BE272C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92SA6FW22;
+				INFOPLIST_FILE = myARapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myQ.myARapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB28E51020675E1700BE272C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92SA6FW22;
+				INFOPLIST_FILE = myARapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myQ.myARapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB28E51220675E1700BE272C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myARappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myQ.myARappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myARapp.app/myARapp";
+			};
+			name = Debug;
+		};
+		CB28E51320675E1700BE272C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myARappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myQ.myARappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myARapp.app/myARapp";
+			};
+			name = Release;
+		};
+		CB28E51520675E1700BE272C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myARappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myQ.myARappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myARapp;
+			};
+			name = Debug;
+		};
+		CB28E51620675E1700BE272C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myARappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myQ.myARappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myARapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB28E4E120675E1700BE272C /* Build configuration list for PBXProject "myARapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB28E50C20675E1700BE272C /* Debug */,
+				CB28E50D20675E1700BE272C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB28E50E20675E1700BE272C /* Build configuration list for PBXNativeTarget "myARapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB28E50F20675E1700BE272C /* Debug */,
+				CB28E51020675E1700BE272C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB28E51120675E1700BE272C /* Build configuration list for PBXNativeTarget "myARappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB28E51220675E1700BE272C /* Debug */,
+				CB28E51320675E1700BE272C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB28E51420675E1700BE272C /* Build configuration list for PBXNativeTarget "myARappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB28E51520675E1700BE272C /* Debug */,
+				CB28E51620675E1700BE272C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB28E4DE20675E1700BE272C /* Project object */;
+}
